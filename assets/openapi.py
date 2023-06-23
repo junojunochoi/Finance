@@ -248,7 +248,7 @@ def candles(ticker, timescale=None, to=None, count=None, unit=1):
 
     Examples
     --------
-    >>> candles("KRW-BTC)
+    >>> candles("KRW-BTC")
     [{'market': 'KRW-BTC',
         'candle_date_time_utc': '2023-06-18T18:26:00',
         'candle_date_time_kst': '2023-06-19T03:26:00',
